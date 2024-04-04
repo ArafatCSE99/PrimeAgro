@@ -75,6 +75,7 @@ if($username!="rejanur" || $password!="prime1234")
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
 </head>
 <body>
     <header>
@@ -91,7 +92,7 @@ if($username!="rejanur" || $password!="prime1234")
                 <i class="fa fa-sticky-note"></i>
                 <p>Note</p>
             </div>
-            <div class="card btn btn-success">
+            <div class="card btn btn-success" onclick="GetGoods()">
                 <i class="fa fa-leaf"></i>
                 <p>Agriculture</p>
             </div>
@@ -128,5 +129,8 @@ if($username!="rejanur" || $password!="prime1234")
     <footer>
         <p>&copy; 2024 Prime Agro. All rights reserved.</p>
     </footer>
+
+   
+
 </body>
 </html>
